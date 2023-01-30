@@ -1,11 +1,4 @@
-﻿//function to calculate final grade and letter grade
-//$("#buttonSend").click(function () {
-//    alert("From: " + $("#textfrom").val() +
-//        ", Subject: " + $("#subject").val() +
-//        ", Message: " + $("#message").val());
-
-//})
-
+﻿//function to calculate grade in numerical form and letter form
 $("#buttonSend").click(function () {
     //calculating total grade in number form
     var totalGradeNum = (((($("#assign").val() * 50)
@@ -17,7 +10,7 @@ $("#buttonSend").click(function () {
 
     //assigning a letter grade based on the number grade
     if (totalGradeNum >= 94) {
-        $("#totalGrade").text("Total grade: " + totalGradeNum + " % A");
+        $("#totalGrade").text("Total grade: " + totalGradeNum + " % A"); //printing out the numerical grade and the assigned letter grade
     }
     else if (totalGradeNum >= 90) {
         $("#totalGrade").text("Total grade: " + totalGradeNum + "% A-");
