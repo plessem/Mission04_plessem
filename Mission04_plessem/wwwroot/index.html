@@ -37,28 +37,35 @@
     <br /><br />
     <p>Grade Calculator: </p>
     <form>
+        <label id="totalGrade"></label>
+        <br /><br />
+
         <label>Assignments</label>
-        <input id="assign" /><br />
+        <input id="assign" />%<br />
 
         <label>Group Project</label>
-        <input id="grouppro" /><br />
+        <input id="grouppro" />%<br />
 
         <label>Quizzes</label>
-        <input id="quiz" /><br />
+        <input id="quiz" />%<br />
 
         <label>Midterm Exam</label>
-        <input id="midterm" /><br />
+        <input id="midterm" />%<br />
 
         <label>Final Exam</label>
-        <input id="final" /><br />
+        <input id="final" />%<br />
 
         <label>INTEX</label>
-        <input id="intex" /><br />
+        <input id="intex" />%<br />
 
         <br /><br />
         <input id="buttonSend" type="button" value="Calculate Final Grade" />
     </form>
+
     <br /><br /><br /><br />
+
+    <script src="library/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/grades.js"></script>
 </body>
 
 </html>
