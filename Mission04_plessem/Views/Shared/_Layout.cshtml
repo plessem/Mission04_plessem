@@ -13,6 +13,13 @@
     <link href="css/default.css" rel="stylesheet" /> <!--linking in my own style sheet changes-->
 </head>
 <body>
+    <!--Navigation bar-->
+    <nav>
+        <a asp-controller="Blah" asp-action="Index">Home</a>
+        <a asp-controller="Blah" asp-action="Calculator">Grade Calculator</a>
+    </nav>
+
+    <!--each page's body-->
     <div>
         @RenderBody()
     </div>

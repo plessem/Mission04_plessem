@@ -12,5 +12,10 @@ namespace Mission04_plessem.Controllers
         {
             return View();
         }
+
+        public IActionResult Calculator ()
+        {
+            return View();
+        }
     }
 }
