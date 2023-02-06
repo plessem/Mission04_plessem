@@ -10,7 +10,6 @@ namespace Mission04_plessem.Controllers
     {
         public IActionResult Index()
         {
-            throw new IndexOutOfRangeException();
             return View();
         }
     }

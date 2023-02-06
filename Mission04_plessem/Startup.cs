@@ -26,33 +26,18 @@ namespace Mission04_plessem
             {
                 app.UseDeveloperExceptionPage();
             }
-            
-            //app.UseDefaultFiles();
-            app.UseStaticFiles();
+            //app.UseDefaultFiles(); 
+            app.UseStaticFiles(); 
+
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Blah}/{action=Idex}/{id?}"
+                    pattern: "{controller=Blah}/{action=Index}/{id?}"
                     );
             });
-
-            //if (env.IsDevelopment())
-            //{
-            //    app.UseDeveloperExceptionPage();
-            //}
-
-            //app.UseRouting();
-
-            //app.UseEndpoints(endpoints =>
-            //{
-            //    endpoints.MapGet("/", async context =>
-            //    {
-            //        await context.Response.WriteAsync("Hello World!");
-            //    });
-            //});
         }
     }
 }
