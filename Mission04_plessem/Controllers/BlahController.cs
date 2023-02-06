@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Mission04_plessem.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,14 @@ namespace Mission04_plessem.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult Calculator ()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Calculator(Calculator model)
         {
             return View();
         }
