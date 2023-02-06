@@ -10,39 +10,51 @@ $("#buttonSend").click(function () {
 
     //assigning a letter grade based on the number grade
     if (totalGradeNum >= 94) {
-        $("#totalGrade").text("Total grade: " + totalGradeNum + " % A"); //printing out the numerical grade and the assigned letter grade
+        alert("Your grade is: " + totalGradeNum + "% A"); //giving result in alert for mission05 assignment
+        //$("#totalGrade").text("Total grade: " + totalGradeNum + " % A"); //printing out the numerical grade and the assigned letter grade
     }
     else if (totalGradeNum >= 90) {
-        $("#totalGrade").text("Total grade: " + totalGradeNum + "% A-");
+        alert("Your grade is: " + totalGradeNum + "% A-");
+        //$("#totalGrade").text("Total grade: " + totalGradeNum + "% A-");
     }
     else if (totalGradeNum >= 87) {
-        $("#totalGrade").text("Total grade: " + totalGradeNum + "% B+");
+        alert("Your grade is: " + totalGradeNum + "% B+");
+        //$("#totalGrade").text("Total grade: " + totalGradeNum + "% B+");
     }
     else if (totalGradeNum >= 84) {
-        $("#totalGrade").text("Total grade: " + totalGradeNum + "% B");
+        alert("Your grade is: " + totalGradeNum + "% B");
+        //$("#totalGrade").text("Total grade: " + totalGradeNum + "% B");
     }
     else if (totalGradeNum >= 80) {
-        $("#totalGrade").text("Total grade: " + totalGradeNum + "% B-");
+        alert("Your grade is: " + totalGradeNum + "% B-");
+        //$("#totalGrade").text("Total grade: " + totalGradeNum + "% B-");
     }
     else if (totalGradeNum >= 77) {
-        $("#totalGrade").text("Total grade: " + totalGradeNum + "% C+");
+        alert("Your grade is: " + totalGradeNum + "% C+");
+        //$("#totalGrade").text("Total grade: " + totalGradeNum + "% C+");
     }
     else if (totalGradeNum >= 74) {
-        $("#totalGrade").text("Total grade: " + totalGradeNum + "% C");
+        alert("Your grade is: " + totalGradeNum + "% C");
+        //$("#totalGrade").text("Total grade: " + totalGradeNum + "% C");
     }
     else if (totalGradeNum >= 70) {
-        $("#totalGrade").text("Total grade: " + totalGradeNum + "% C-");
+        alert("Your grade is: " + totalGradeNum + "% C-");
+        //$("#totalGrade").text("Total grade: " + totalGradeNum + "% C-");
     }
     else if (totalGradeNum >= 67) {
-        $("#totalGrade").text("Total grade: " + totalGradeNum + "% D+");
+        alert("Your grade is: " + totalGradeNum + "% D+");
+        //$("#totalGrade").text("Total grade: " + totalGradeNum + "% D+");
     }
     else if (totalGradeNum >= 64) {
-        $("#totalGrade").text("Total grade: " + totalGradeNum + "% D");
+        alert("Your grade is: " + totalGradeNum + "% D");
+        //$("#totalGrade").text("Total grade: " + totalGradeNum + "% D");
     }
     else if (totalGradeNum >= 60) {
-        $("#totalGrade").text("Total grade: " + totalGradeNum + "% D-");
+        alert("Your grade is: " + totalGradeNum + "% D-");
+        //$("#totalGrade").text("Total grade: " + totalGradeNum + "% D-");
     }
     else {
-        $("#totalGrade").text("Total grade: " + totalGradeNum + "% E");
+        alert("Your grade is: " + totalGradeNum + "% E");
+        //$("#totalGrade").text("Total grade: " + totalGradeNum + "% E");
     }
 })

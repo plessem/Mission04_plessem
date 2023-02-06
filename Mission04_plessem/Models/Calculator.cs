@@ -10,21 +10,27 @@ namespace Mission04_plessem.Models
     {
         //getting and setting all the variables in the Calculator form
         [Required]
+        [Range(0, 100, ErrorMessage = "Number must be between 0 and 100")]
         public int Assign { get; set; }
 
         [Required]
+        [Range(0, 100, ErrorMessage = "Number must be between 0 and 100")]
         public int Grouppro { get; set; }
 
         [Required]
+        [Range(0, 100, ErrorMessage = "Number must be between 0 and 100")]
         public int Quiz { get; set; }
 
         [Required]
+        [Range(0, 100, ErrorMessage = "Number must be between 0 and 100")]
         public int Midterm { get; set; }
 
         [Required]
+        [Range(0, 100, ErrorMessage = "Number must be between 0 and 100")]
         public int Final { get; set; }
 
         [Required]
+        [Range(0, 100, ErrorMessage = "Number must be between 0 and 100")]
         public int Intex { get; set; }
 
 
